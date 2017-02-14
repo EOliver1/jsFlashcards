@@ -1,19 +1,13 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
-  });
   $("h2#javascript").click(function() {
     $("#javascriptParagraph").toggle();
   });
-
   $("h2#operators").click(function() {
     $("#operatorsParagraph").toggle();
-
   });
   $("h2#variables").click(function() {
     $("#variablesParagraph").toggle();
-
   });
-
   $("h2#namingConventions").click(function() {
       $("#conventionsParagraph").toggle();
   });
@@ -60,6 +54,63 @@ $(document).ready(function() {
     $("#jqueryParagraph").toggle();
   });
   $("h2#attributes").click(function() {
+    $("#attributesParagraph").toggle();
+  });
+  $("#javascriptParagraph").click(function() {
+    $("#javascriptParagraph").toggle();
+  });
+  $("#operatorsParagraph").click(function() {
+    $("#operatorsParagraph").toggle();
+  });
+  $("#variablesParagraph").click(function() {
+    $("#variablesParagraph").toggle();
+  });
+  $("#conventionsParagraph").click(function() {
+      $("#conventionsParagraph").toggle();
+  });
+  $("#functionsParagraph").click(function() {
+    $("#functionsParagraph").toggle();
+  });
+  $("#methodsParagraph").click(function() {
+    $("#methodsParagraph").toggle();
+  });
+  $("#argumentsParagraph").click(function() {
+    $("#argumentsParagraph").toggle();
+  });
+  $("#parametersParagraph").click(function() {
+    $("#parametersParagraph").toggle();
+  });
+  $("#returnParagraph").click(function() {
+    $("#returnParagraph").toggle();
+  });
+  $("#chainingParagraph").click(function() {
+    $("#chainingParagraph").toggle();
+  });
+  $("#stringsParagraph").click(function() {
+    $("#stringsParagraph").toggle();
+  });
+  $("#booleansParagraph").click(function() {
+    $("#booleansParagraph").toggle();
+  });
+  $("#undefinedParagraph").click(function() {
+    $("#undefinedParagraph").toggle();
+  });
+  $("#nanParagraph").click(function() {
+    $("#nanParagraph").toggle();
+  });
+  $("#escapeParagraph").click(function() {
+    $("#escapeParagraph").toggle();
+  });
+  $("#alertParagraph").click(function() {
+    $("#alertParagraph").toggle();
+  });
+  $("#commentsParagraph").click(function() {
+    $("#commentsParagraph").toggle();
+  });
+  $("#jQueryParagraph").click(function() {
+    $("#jqueryParagraph").toggle();
+  });
+  $("#attributesParagraph").click(function() {
     $("#attributesParagraph").toggle();
   });
 });
