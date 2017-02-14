@@ -1,0 +1,10 @@
+p {
+  display: none;
+}
+
+.flashcard {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 3px;
+  /* background-color: red; */
+}
